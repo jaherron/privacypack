@@ -11,7 +11,6 @@
 
 # Build / test artifacts
 /.next/
-/.open-next/
 /out/
 /build/
 /coverage/
@@ -20,8 +19,7 @@
 *.tsbuildinfo
 next-env.d.ts
 
-# Cloudflare / local tooling
-/.wrangler/
+# Local env
 .dev.vars*
 !.dev.vars.example
 .env*

@@ -13,11 +13,9 @@ const eslintConfig = [
     {
         ignores: [
             ".next/**",
-            ".open-next/**",
-            ".wrangler/**",
             "node_modules/**",
-            "cloudflare-env.d.ts",
             "next-env.d.ts",
+            "out/**",
             "playwright-report/**",
             "test-results/**",
             "tsconfig.tsbuildinfo",
